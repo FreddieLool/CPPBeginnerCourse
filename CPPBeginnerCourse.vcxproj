@@ -127,10 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CPPBeginnerCourse.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="GraphApp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\Desktop\CPPFinalProject\graph.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="GraphApp.h" />
+    <ClInclude Include="Utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
