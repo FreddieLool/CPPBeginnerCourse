@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio specific files
+.vs/
+
+# Other potential Visual Studio-related exclusions
+*.vcxproj.user
+*.vcxproj.filters
+*.pdb
+*.ipch
